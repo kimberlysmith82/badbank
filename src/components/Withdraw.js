@@ -33,7 +33,7 @@ function Withdraw(){
       var total = parseInt(user.balance) - parseInt(withdraw);
       //console.log(total);
       ctx.users[0].balance = total;
-      alert('Successfull Withdraw!');
+      alert('Successful Withdraw!');
       setWithdraw('');
     }  
   
