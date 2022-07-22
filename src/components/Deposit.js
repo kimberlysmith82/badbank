@@ -30,7 +30,7 @@ function Deposit(){
       var total = parseInt(user.balance) + parseInt(deposit);
       //console.log(total);
       ctx.users[0].balance = total;
-      alert('Successfull Deposit!');
+      alert('Successful Deposit!');
       setDeposit('');
     }  
   
